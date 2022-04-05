@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('../images/45degreee_fabric.png');
+}
+
+.container{
+    margin: 10px;
+    /* background-color: chartreuse; */
+}
+
+header{
+    background-image: url('../images/banner.jpg');
+}
+
+#header-content{
+    padding: 30px 15px;
+    color: white;
+    text-shadow: 2px 2px 5px #000;
+    background: rgba(36, 36, 36, 0.5);
+    font-size: 1.5em;
+}
+
+#header-content h1{
+    font-weight: 600;
+    font-size: 2em;
+}
+
+#header-content a{
+    color: #71aaff;
+    text-shadow: 2px 2px 2px #000;
+}
+
+#header-content a:hover{
+    color: #c5dcff;
+}
+
+main{
+    background-color: rgb(251, 247, 242);
+    padding: 50px 15px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(251, 232, 209);
+    padding: 10px 15px;
+}
